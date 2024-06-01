@@ -382,6 +382,26 @@ span{
   display: none;
 }
 
+#image1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* or center, depending on your layout preference */
+}
+
+#image1 h2 {
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add padding to create space between elements */
+}
+
+
+
+#h2-1-imagebg {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+#h2-2-imagebg {
+    margin-top: 0; /* Ensure no extra margin at the top */
+}
 
 
 /* =====================MEDIUM DEVICES===== */
